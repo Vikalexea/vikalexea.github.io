@@ -1,54 +1,10 @@
-@font-face {
-  font-family: dock11;
-  src: url(dock11.otf);
-}
-body {
-  width: 100vw;
-  height: 25vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  background-color: #222;
-}
-.emboss-txt {
-  border-bottom: 5px solid white;
-  border-radius: 25px;
-  filter: blur(0.5px);
-  position: relative;
-  font-size: 100px;
-  font-family: dock11;
-  letter-spacing: 5px;
-  color: #cfcfcf;
-  text-shadow: 0 0 1px #a7a7a7, 0 1px 1px #a7a7a7, 0 2px 1px #a7a7a7, 1px 1px 1px #a7a7a7, 1px 2px 1px #a7a7a7, 1px 3px 1px #a7a7a7, 2px 2px 1px #a7a7a7, 2px 3px 1px #a7a7a7, 2px 4px 1px #a7a7a7, 1px 10px 30px rgba(0, 0, 0, 0.8),
-    1px 10px 70px rgba(0, 0, 0, 0.8), 0 5px 5px rgba(0, 0, 0, 0.8), -5px 5px 20px rgba(0, 0, 0, 0.8), 5px 5px 20px rgba(0, 0, 0, 0.8), 1px 1px 120px rgba(255, 255, 255, 0.5);
-}
-.emboss-txt::after {
-  border-radius: 25px;
-  content: "VIKALEXEA";
-  font-size: 100px;
-  letter-spacing: 5px;
-  font-family: dock11;
-  position: absolute;
-  top: 0;
-  left: 0;
-  text-shadow: 0 0 100px rgba(0, 153, 255, 0.5);
-  animation: cycle 10s linear infinite;
-}
-@keyframes cycle {
-  0% {
-    text-shadow: 0 0 100px rgba(0, 153, 255, 0.5);
-  }
-  20% {
-    text-shadow: 0 0 100px rgba(212, 0, 255, 0.5);
-  }
-  40% {
-    text-shadow: 0 0 100px rgba(0, 255, 115, 0.5);
-  }
-  60% {
-    text-shadow: 0 0 100px rgba(255, 0, 0, 0.5);
-  }
-  80% {
-    text-shadow: 0 0 100px rgba(255, 115, 0, 0.5);
-  }
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="emboss-txt">VIKALEXEA</div>
+  </body>
+</html>
