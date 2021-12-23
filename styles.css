@@ -92,7 +92,7 @@ body {
   user-select: none;
   cursor: default;
   animation-name: snowflakes-fall, snowflakes-shake;
-  animation-duration: 10s, 3s;
+  animation-duration: 5s, 3s;
   animation-timing-function: linear, ease-in-out;
   animation-iteration-count: infinite, infinite;
   animation-play-state: running, running
