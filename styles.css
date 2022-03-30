@@ -10,21 +10,13 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-color: #1a1a1a;
+  background-color: #ffffff;
 }
 .snowflake {
   color: #fff;
   font-size: 1em;
   font-family: Arial;
   text-shadow: 0 0 1px #000;
-}
-#video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  filter: blur(25px);
-  min-width: 100%;
-  min-height: 100%;
 }
 .emboss-txt {
   border-radius: 25px;
